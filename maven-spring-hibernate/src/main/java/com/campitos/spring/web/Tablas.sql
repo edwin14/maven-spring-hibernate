@@ -16,6 +16,6 @@ create table calificacion (id_calificacion integer primary key auto_increment, i
 
 create table nomina (id integer , id_nomina integer auto_increment primary key, fecha_pago date, saldo float,
                      constraint foreign key(id) references usuario(id));
-
 */
+
 select * from nomina;
